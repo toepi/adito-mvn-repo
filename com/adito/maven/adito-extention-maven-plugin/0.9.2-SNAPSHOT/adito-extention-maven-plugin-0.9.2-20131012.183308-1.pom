@@ -45,6 +45,16 @@
         <pluginManagement>
             <plugins>
                 <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>2.4</version>
+                </plugin>
+                <plugin>
                     <groupId>com.github.github</groupId>
                     <artifactId>site-maven-plugin</artifactId>
                     <version>0.9</version>
@@ -102,7 +112,7 @@
                         <groupId>com.github.github</groupId>
                         <artifactId>site-maven-plugin</artifactId>
                         <configuration>
-                            <oauth2Token>${env.TOKEN}</oauth2Token>
+                            <oauth2Token>${env.GH_TOKEN}</oauth2Token>
                         </configuration>
                     </plugin>
                 </plugins>

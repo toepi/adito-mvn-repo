@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>adito : maven : extention plugin</name>
+      <prefix>adito-extention</prefix>
+      <artifactId>adito-extention-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
